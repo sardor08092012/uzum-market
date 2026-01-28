@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "299164683266",
+    "project_id": "uzum-market-7de6d",
+    "storage_bucket": "uzum-market-7de6d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299164683266:android:ff4a161a2fb2d3e4442b1b",
+        "android_client_info": {
+          "package_name": "uz.sardor.uzum_market"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3uWbAdeAF4oHJBcTjrcMFPpR7SN9n7HY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
