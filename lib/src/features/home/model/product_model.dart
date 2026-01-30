@@ -1,9 +1,21 @@
+
+
+import 'package:hive/hive.dart';
+
+part 'product_model.g.dart';
+@HiveType(typeId: 0)
 class ProductModel {
+  @HiveField(1)
   final String company;
+  @HiveField(2)
   final String? description;
+  @HiveField(3)
   final String image;
+  @HiveField(4)
   final String name;
+  @HiveField(5)
   final double price;
+  @HiveField(6)
   final double rating;
 
   const ProductModel({

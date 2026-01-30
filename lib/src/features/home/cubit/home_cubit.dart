@@ -7,7 +7,7 @@ import 'home_state.dart';
 
 class HomeCubit extends Cubit<HomeState> {
   HomeCubit() : super(HomeInitialState()) {
-    loadProducts(limit: 5, currentState: HomeLoadingState());
+    loadProducts(limit: 15, currentState: HomeLoadingState());
   }
   bool hasMore = true;
   DocumentSnapshot? lastDocument;
